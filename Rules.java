@@ -16,6 +16,24 @@ public class Rules extends JFrame {
         heading.setFont(new Font("Viner Hand ITC",Font.BOLD,30));
         heading.setForeground(new Color(30,144,254));
         add(heading);
+
+         JLabel rules = new JLabel();
+        rules.setBounds(20,90,700,350);
+        rules.setFont(new Font("Tahoma",Font.PLAIN,16));
+        rules.setText(
+            "<html>" +
+            "1.Focus on quiz." +"<br> <br>" +
+            "2.No cheating alloweded." + "<br> <br>" +
+            "3.Do not got nervous if your friend is answering more questions."+"<br><br>" +
+            "4.Good Luck" + "<br><br>"+
+            "<html>"
+        );
+        add(rules);
+
+
+
+
+
         setSize(800,500);
         setLocation(350,50);
         setVisible(true);
