@@ -15,7 +15,7 @@ public class Rules extends JFrame {
         heading.setBounds(50,20,700,30);
         heading.setFont(new Font("Viner Hand ITC",Font.BOLD,30));
         heading.setForeground(new Color(30,144,254));
-        add(heading);
+        add(heading);    
 
          JLabel rules = new JLabel();
         rules.setBounds(20,90,700,350);
